@@ -39,7 +39,7 @@ app.use("/api/employeedashboard", employeeDashboardRoute);
 
 app.get("/", (req, res) => {
   res.send(
-    `<a href="https://github.com/studentjsw/web2-bk.git"> , welcome to backend</a>`
+    `<a href="https://github.com/logeshmohan98/CRM_WEBCODE_RE_BE"> , welcome to backend</a>`
   );
 });
 app.listen(PORT, () => console.log(`server up and running at  ${PORT}`));
